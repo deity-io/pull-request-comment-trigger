@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Pull Request Trigger on Comment
-        uses: segmentJason/pull-request-comment-trigger@v1.1.0
+        uses: deity-io/pull-request-comment-trigger@master
         id: check
         with:
           trigger: '@deploy'
